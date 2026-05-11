@@ -64,10 +64,10 @@ frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url],  # Next.js dev server or Prod URL
-    allow_credentials=True,
-    allow_methods=["*"],   # Allow all HTTP methods (GET, POST, PUT, DELETE)
-    allow_headers=["*"],   # Allow all headers
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ---------------------------------------------------------------------------
