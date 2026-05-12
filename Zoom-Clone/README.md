@@ -2,6 +2,9 @@
 
 A full-stack Zoom-inspired video conferencing application with meeting scheduling, instant meetings, participant management, and a clean modern UI.
 
+**Live Demo (Frontend):** [https://frontend-ivory-zeta-93.vercel.app](https://frontend-ivory-zeta-93.vercel.app)  
+**Live API (Backend):** [https://zoom-clone-w5sv.onrender.com/docs](https://zoom-clone-w5sv.onrender.com/docs)
+
 ![Dashboard](./screenshots/dashboard.png)
 
 ---
